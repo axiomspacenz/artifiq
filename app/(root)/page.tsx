@@ -37,8 +37,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
           ))}
         </ul>
       </section>
-      <section className='sm:mt-12'>
-
+      <section className='mt-8 sm:mt-14'>
         <Collection
           hasSearch={true}
           images={images?.data}
